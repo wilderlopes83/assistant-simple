@@ -94,7 +94,7 @@ app.get('/api/session', function (req, res) {
     if (error) {
       return res.send(error);
     } else {
-      return res.send(response);
+      return res.send(response);      
     }
   });
 });
